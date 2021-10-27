@@ -37,7 +37,7 @@ static unsigned int *gpio_registers = NULL;
 *
 ***************************************************************************************************/
 /**
-* @brief config the gpio pin as output and Turn on the led.
+* @brief Function used to config the gpio pin as output and Turn on the led.
 * Read BCM2711 ARM Peripherals Document to know how to access to GPIO regiters(pass the pinout command to display soc details) 
 * link: https://pdf1.alldatasheet.com/datasheet-pdf/view/1283902/ETC1/BCM2711.html
 *

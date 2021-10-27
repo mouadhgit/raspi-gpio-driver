@@ -9,20 +9,20 @@
 3. chek if build system installed
     ls /lib/modules/$(uname -r)/build
 
-4. build the Project
+4. build the Project:
     make 
 
-5. chek kernel drive system
+5. chek kernel drive system:
     lsmode
 
 
-7. install 
+7. install: 
     sudo insmod gpio-driver.ko
 
-8. chek
-    ls | grep lll    
+8. chek:
+    ls /proc | grep gpio    
 
-9. chek kernel system buffer (Printk)
+9. chek kernel system buffer (Printk):
     dmesg
 
 10. test the driver:
